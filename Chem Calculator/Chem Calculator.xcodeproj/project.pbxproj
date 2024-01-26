@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4248761C2B638AE10009F1B3 /* Chem_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248761B2B638AE10009F1B3 /* Chem_CalculatorApp.swift */; };
+		4248761E2B638AE10009F1B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248761D2B638AE10009F1B3 /* ContentView.swift */; };
+		424876202B638AE20009F1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4248761F2B638AE20009F1B3 /* Assets.xcassets */; };
+		424876242B638AE20009F1B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424876232B638AE20009F1B3 /* Preview Assets.xcassets */; };
+		4248762E2B638AE20009F1B3 /* Chem_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248762D2B638AE20009F1B3 /* Chem_CalculatorTests.swift */; };
+		424876382B638AE20009F1B3 /* Chem_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424876372B638AE20009F1B3 /* Chem_CalculatorUITests.swift */; };
+		4248763A2B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424876392B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4248762A2B638AE20009F1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424876102B638AE00009F1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424876172B638AE10009F1B3;
+			remoteInfo = "Chem Calculator";
+		};
+		424876342B638AE20009F1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424876102B638AE00009F1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424876172B638AE10009F1B3;
+			remoteInfo = "Chem Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		424876182B638AE10009F1B3 /* Chem Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chem Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4248761B2B638AE10009F1B3 /* Chem_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chem_CalculatorApp.swift; sourceTree = "<group>"; };
+		4248761D2B638AE10009F1B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4248761F2B638AE20009F1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		424876212B638AE20009F1B3 /* Chem_Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chem_Calculator.entitlements; sourceTree = "<group>"; };
+		424876232B638AE20009F1B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		424876292B638AE20009F1B3 /* Chem CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chem CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4248762D2B638AE20009F1B3 /* Chem_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chem_CalculatorTests.swift; sourceTree = "<group>"; };
+		424876332B638AE20009F1B3 /* Chem CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chem CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424876372B638AE20009F1B3 /* Chem_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chem_CalculatorUITests.swift; sourceTree = "<group>"; };
+		424876392B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chem_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		424876152B638AE10009F1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424876262B638AE20009F1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424876302B638AE20009F1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4248760F2B638AE00009F1B3 = {
+			isa = PBXGroup;
+			children = (
+				4248761A2B638AE10009F1B3 /* Chem Calculator */,
+				4248762C2B638AE20009F1B3 /* Chem CalculatorTests */,
+				424876362B638AE20009F1B3 /* Chem CalculatorUITests */,
+				424876192B638AE10009F1B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		424876192B638AE10009F1B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				424876182B638AE10009F1B3 /* Chem Calculator.app */,
+				424876292B638AE20009F1B3 /* Chem CalculatorTests.xctest */,
+				424876332B638AE20009F1B3 /* Chem CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4248761A2B638AE10009F1B3 /* Chem Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4248761B2B638AE10009F1B3 /* Chem_CalculatorApp.swift */,
+				4248761D2B638AE10009F1B3 /* ContentView.swift */,
+				4248761F2B638AE20009F1B3 /* Assets.xcassets */,
+				424876212B638AE20009F1B3 /* Chem_Calculator.entitlements */,
+				424876222B638AE20009F1B3 /* Preview Content */,
+			);
+			path = "Chem Calculator";
+			sourceTree = "<group>";
+		};
+		424876222B638AE20009F1B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				424876232B638AE20009F1B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4248762C2B638AE20009F1B3 /* Chem CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4248762D2B638AE20009F1B3 /* Chem_CalculatorTests.swift */,
+			);
+			path = "Chem CalculatorTests";
+			sourceTree = "<group>";
+		};
+		424876362B638AE20009F1B3 /* Chem CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				424876372B638AE20009F1B3 /* Chem_CalculatorUITests.swift */,
+				424876392B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = "Chem CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		424876172B638AE10009F1B3 /* Chem Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4248763D2B638AE20009F1B3 /* Build configuration list for PBXNativeTarget "Chem Calculator" */;
+			buildPhases = (
+				424876142B638AE10009F1B3 /* Sources */,
+				424876152B638AE10009F1B3 /* Frameworks */,
+				424876162B638AE10009F1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chem Calculator";
+			productName = "Chem Calculator";
+			productReference = 424876182B638AE10009F1B3 /* Chem Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		424876282B638AE20009F1B3 /* Chem CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424876402B638AE20009F1B3 /* Build configuration list for PBXNativeTarget "Chem CalculatorTests" */;
+			buildPhases = (
+				424876252B638AE20009F1B3 /* Sources */,
+				424876262B638AE20009F1B3 /* Frameworks */,
+				424876272B638AE20009F1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4248762B2B638AE20009F1B3 /* PBXTargetDependency */,
+			);
+			name = "Chem CalculatorTests";
+			productName = "Chem CalculatorTests";
+			productReference = 424876292B638AE20009F1B3 /* Chem CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		424876322B638AE20009F1B3 /* Chem CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424876432B638AE20009F1B3 /* Build configuration list for PBXNativeTarget "Chem CalculatorUITests" */;
+			buildPhases = (
+				4248762F2B638AE20009F1B3 /* Sources */,
+				424876302B638AE20009F1B3 /* Frameworks */,
+				424876312B638AE20009F1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424876352B638AE20009F1B3 /* PBXTargetDependency */,
+			);
+			name = "Chem CalculatorUITests";
+			productName = "Chem CalculatorUITests";
+			productReference = 424876332B638AE20009F1B3 /* Chem CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424876102B638AE00009F1B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					424876172B638AE10009F1B3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					424876282B638AE20009F1B3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 424876172B638AE10009F1B3;
+					};
+					424876322B638AE20009F1B3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 424876172B638AE10009F1B3;
+					};
+				};
+			};
+			buildConfigurationList = 424876132B638AE00009F1B3 /* Build configuration list for PBXProject "Chem Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4248760F2B638AE00009F1B3;
+			productRefGroup = 424876192B638AE10009F1B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				424876172B638AE10009F1B3 /* Chem Calculator */,
+				424876282B638AE20009F1B3 /* Chem CalculatorTests */,
+				424876322B638AE20009F1B3 /* Chem CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		424876162B638AE10009F1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424876242B638AE20009F1B3 /* Preview Assets.xcassets in Resources */,
+				424876202B638AE20009F1B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424876272B638AE20009F1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424876312B638AE20009F1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		424876142B638AE10009F1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4248761E2B638AE10009F1B3 /* ContentView.swift in Sources */,
+				4248761C2B638AE10009F1B3 /* Chem_CalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424876252B638AE20009F1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4248762E2B638AE20009F1B3 /* Chem_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4248762F2B638AE20009F1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424876382B638AE20009F1B3 /* Chem_CalculatorUITests.swift in Sources */,
+				4248763A2B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4248762B2B638AE20009F1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424876172B638AE10009F1B3 /* Chem Calculator */;
+			targetProxy = 4248762A2B638AE20009F1B3 /* PBXContainerItemProxy */;
+		};
+		424876352B638AE20009F1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424876172B638AE10009F1B3 /* Chem Calculator */;
+			targetProxy = 424876342B638AE20009F1B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4248763B2B638AE20009F1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4248763C2B638AE20009F1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4248763E2B638AE20009F1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chem Calculator/Chem_Calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chem Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = VVXMGAPC9V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Chem-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4248763F2B638AE20009F1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chem Calculator/Chem_Calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chem Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = VVXMGAPC9V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Chem-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		424876412B638AE20009F1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVXMGAPC9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Chem-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chem Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chem Calculator";
+			};
+			name = Debug;
+		};
+		424876422B638AE20009F1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVXMGAPC9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Chem-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chem Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chem Calculator";
+			};
+			name = Release;
+		};
+		424876442B638AE20009F1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVXMGAPC9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Chem-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chem Calculator";
+			};
+			name = Debug;
+		};
+		424876452B638AE20009F1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VVXMGAPC9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Chem-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chem Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		424876132B638AE00009F1B3 /* Build configuration list for PBXProject "Chem Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4248763B2B638AE20009F1B3 /* Debug */,
+				4248763C2B638AE20009F1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4248763D2B638AE20009F1B3 /* Build configuration list for PBXNativeTarget "Chem Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4248763E2B638AE20009F1B3 /* Debug */,
+				4248763F2B638AE20009F1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424876402B638AE20009F1B3 /* Build configuration list for PBXNativeTarget "Chem CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424876412B638AE20009F1B3 /* Debug */,
+				424876422B638AE20009F1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424876432B638AE20009F1B3 /* Build configuration list for PBXNativeTarget "Chem CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424876442B638AE20009F1B3 /* Debug */,
+				424876452B638AE20009F1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 424876102B638AE00009F1B3 /* Project object */;
+}
