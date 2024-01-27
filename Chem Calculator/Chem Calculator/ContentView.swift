@@ -17,13 +17,15 @@ extension UIScreen{
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Hello, world!")
-                .frame(height: 10.0)
-            Button("Balance Equations") {
-                
+            Text("AP Chemistry Calculator")
+            Button("Balance Equations" //, action: balance
+            ) {
             }
+            .frame(height: 25.0)
+            Spacer()
         }
         .padding()
+        .frame(width: UIScreen.screenWidth)
     }
 }
 

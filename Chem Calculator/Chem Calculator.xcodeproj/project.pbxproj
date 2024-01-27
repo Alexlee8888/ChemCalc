@@ -14,6 +14,7 @@
 		4248762E2B638AE20009F1B3 /* Chem_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248762D2B638AE20009F1B3 /* Chem_CalculatorTests.swift */; };
 		424876382B638AE20009F1B3 /* Chem_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424876372B638AE20009F1B3 /* Chem_CalculatorUITests.swift */; };
 		4248763A2B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424876392B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift */; };
+		42E3169A2B64BADE006980B9 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E316992B64BADE006980B9 /* BalanceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		424876332B638AE20009F1B3 /* Chem CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chem CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		424876372B638AE20009F1B3 /* Chem_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chem_CalculatorUITests.swift; sourceTree = "<group>"; };
 		424876392B638AE20009F1B3 /* Chem_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chem_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42E316992B64BADE006980B9 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				4248761B2B638AE10009F1B3 /* Chem_CalculatorApp.swift */,
 				4248761D2B638AE10009F1B3 /* ContentView.swift */,
+				42E316992B64BADE006980B9 /* BalanceView.swift */,
 				4248761F2B638AE20009F1B3 /* Assets.xcassets */,
 				424876212B638AE20009F1B3 /* Chem_Calculator.entitlements */,
 				424876222B638AE20009F1B3 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E3169A2B64BADE006980B9 /* BalanceView.swift in Sources */,
 				4248761E2B638AE10009F1B3 /* ContentView.swift in Sources */,
 				4248761C2B638AE10009F1B3 /* Chem_CalculatorApp.swift in Sources */,
 			);
